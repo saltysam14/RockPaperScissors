@@ -81,6 +81,7 @@ function game() {
     if (computerScore === 5) {
         finalResult.textContent="You lose! Game over.";
         buttons.forEach((button) => {
+<<<<<<< HEAD
             button.removeEventListener("click", getPlayerChoice);
         });
     }
@@ -98,3 +99,16 @@ function game() {
 
           
 
+=======
+        button.removeEventListener("click", getPlayerChoice);
+    });
+}
+
+    else if (playerScore ===5) {
+        finalResult.textContent="You win!";
+        buttons.forEach((button) => {
+        button.removeEventListener("click", getPlayerChoice);
+    });
+    }
+}
+>>>>>>> rps-ui
