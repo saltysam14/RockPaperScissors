@@ -77,7 +77,6 @@ function game() {
     computerSelectionDisplay.textContent="Computer Choice:" + " " + computerSelection;
    
     
-        
     if (computerScore === 5) {
         finalResult.textContent="You lose! Game over.";
         buttons.forEach((button) => {
